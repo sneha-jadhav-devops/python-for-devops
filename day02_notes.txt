@@ -1,0 +1,110 @@
+DAY 2 – PYTHON DATA TYPES (DEVOPS FOCUSED)
+
+--------------------------------------------------
+1. What are Data Types?
+--------------------------------------------------
+Data types define the type of data a variable can store.
+In DevOps, data types are used to store:
+- Server names
+- Service configurations
+- Port numbers
+- Environment details
+- Application status
+
+--------------------------------------------------
+2. String Data Type
+--------------------------------------------------
+Strings are used to store text data.
+
+Examples:
+- Service names (nginx, apache)
+- Environment names (dev, staging, production)
+- File paths
+- Logs and messages
+
+Example:
+service_name = "nginx"
+environment = "production"
+
+--------------------------------------------------
+3. Integer Data Type
+--------------------------------------------------
+Integers store whole numbers.
+
+Examples in DevOps:
+- Port numbers (80, 443)
+- Number of replicas
+- Retry counts
+- Timeout values
+
+Example:
+port = 80
+replicas = 3
+
+--------------------------------------------------
+4. List Data Type
+--------------------------------------------------
+Lists store multiple values in a single variable.
+They are ordered and mutable (can be changed).
+
+DevOps use cases:
+- List of servers
+- List of containers
+- List of IP addresses
+
+Example:
+servers = ["web-server-1", "web-server-2", "db-server-1"]
+
+Common list operations:
+- append() → add item
+- remove() → remove item
+- index access → servers[0]
+
+--------------------------------------------------
+5. Dictionary Data Type
+--------------------------------------------------
+Dictionaries store data as key-value pairs.
+
+DevOps use cases:
+- Service configurations
+- Application metadata
+- JSON/YAML parsed data
+- Cloud resource information
+
+Example:
+service_config = {
+    "name": "nginx",
+    "port": 80,
+    "status": "running",
+    "environment": "production"
+}
+
+Access data using keys:
+service_config["name"]
+service_config["status"]
+
+--------------------------------------------------
+6. Why Lists and Dictionaries are IMPORTANT in DevOps
+--------------------------------------------------
+- Used heavily in automation scripts
+- Used to parse JSON and YAML files
+- Used in Ansible, Kubernetes, Terraform outputs
+- Helps manage multiple servers/services easily
+
+--------------------------------------------------
+7. DevOps Real-World Mapping
+--------------------------------------------------
+Python List        → Inventory of servers
+Python Dictionary → Service or application configuration
+String             → Names, paths, environments
+Integer            → Ports, counts, limits
+
+--------------------------------------------------
+8. Summary of Day 2
+--------------------------------------------------
+- Learned core Python data types
+- Understood DevOps-related examples
+- Practiced storing and updating configuration data
+- Built foundation for automation scripts
+
+Day 2 completed successfully ✅
