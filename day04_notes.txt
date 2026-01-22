@@ -1,0 +1,125 @@
+DAY 4 – CONDITIONAL STATEMENTS & LOOPS 
+======================================================
+
+--------------------------------------------------
+1. Why Conditionals and Loops are Important in DevOps
+--------------------------------------------------
+DevOps automation requires scripts to:
+- Make decisions
+- Run tasks repeatedly
+- Handle multiple servers
+- Act based on system state
+
+Without conditionals and loops, automation is impossible.
+
+--------------------------------------------------
+2. Conditional Statements (if, elif, else)
+--------------------------------------------------
+Conditionals allow Python to execute code
+based on a condition.
+
+Syntax:
+if condition:
+    code
+elif condition:
+    code
+else:
+    code
+
+DevOps Use Cases:
+- Check service status
+- Verify environment
+- Validate configuration values
+
+Example:
+If service is running → print status
+Else → alert or restart
+
+--------------------------------------------------
+3. Comparison Operators
+--------------------------------------------------
+Used in conditions:
+
+- ==   equal
+- !=   not equal
+- >    greater than
+- <    less than
+- >=   greater than or equal
+- <=   less than or equal
+
+DevOps Example:
+Check CPU usage threshold.
+
+--------------------------------------------------
+4. Logical Operators
+--------------------------------------------------
+Used to combine conditions:
+
+- and
+- or
+- not
+
+DevOps Example:
+Check if service is running AND monitoring is enabled.
+
+--------------------------------------------------
+5. for Loop
+--------------------------------------------------
+Used to iterate over a sequence.
+
+Common DevOps Use:
+- Loop through server lists
+- Loop through containers
+- Loop through ports
+
+Example:
+for server in servers:
+    print(server)
+
+--------------------------------------------------
+6. while Loop
+--------------------------------------------------
+Used to repeat until a condition is false.
+
+DevOps Use Cases:
+- Retry mechanisms
+- Health check retries
+- Wait for service to start
+
+--------------------------------------------------
+7. break and continue
+--------------------------------------------------
+Used to control loop execution.
+
+- break → exit loop
+- continue → skip current iteration
+
+DevOps Example:
+Skip failed server and continue with others.
+
+--------------------------------------------------
+8. Real-World DevOps Scenario
+--------------------------------------------------
+We automate:
+- Checking multiple servers
+- Identifying production environment
+- Acting based on service status
+- Retrying checks using loops
+
+--------------------------------------------------
+9. Common Mistakes
+--------------------------------------------------
+- Infinite loops
+- Wrong indentation
+- Incorrect logical conditions
+- Forgetting break in while loops
+
+--------------------------------------------------
+10. Summary of Day 4
+--------------------------------------------------
+- Learned decision-making using if-else
+- Used loops for repetitive tasks
+- Combined logic for real automation
+- Built foundation for monitoring scripts
+
+DAY 4 COMPLETED SUCCESSFULLY ✅
