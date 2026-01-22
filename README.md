@@ -18,9 +18,23 @@ It includes notes and hands-on code for each day of learning.
 - Lists and Dictionaries  
 - Real-world DevOps examples (servers, ports, service configs)  
 
+**Day 3 – Python Operations (DevOps Focused)**  
+- String operations (split, join, replace, lower, upper)  
+- List operations (append, extend, remove, pop)  
+- Dictionary operations (get, update, keys, values)  
+- Type conversion (str, int, float, bool)  
+
+**Day 4 – Conditionals and Loops (DevOps Focused)**  
+- if, elif, else conditions  
+- Comparison and logical operators  
+- for and while loops  
+- break and continue  
+- Real-world DevOps automation examples  
+
 ---
 
 ## 🗂 Repository Structure
+
 python-for-devops/
 ├── README.md
 ├── LICENSE
@@ -29,3 +43,7 @@ python-for-devops/
 ├── day01_script.py
 ├── day02_notes.txt
 ├── day02_data_types.py
+├── day03_notes.txt
+├── day03_operations.py
+├── day04_notes.txt
+├── day04_conditionals_loops.py
