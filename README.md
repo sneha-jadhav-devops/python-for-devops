@@ -3,7 +3,6 @@
 This repository contains my **Python learning journey** focused on **DevOps automation**.  
 It includes notes and hands-on code for each day of learning.
 
----
 
 ## 📌 Completed Days
 
