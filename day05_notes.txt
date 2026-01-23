@@ -1,0 +1,125 @@
+DAY 5 – FUNCTIONS & MODULES 
+
+
+--------------------------------------------------
+1. Why Functions are Important in DevOps
+--------------------------------------------------
+In DevOps, scripts must be:
+- Reusable
+- Readable
+- Easy to maintain
+
+Functions help by:
+- Avoiding repeated code
+- Making scripts modular
+- Improving debugging and testing
+
+Real DevOps tools like Ansible, Terraform, and CI/CD
+use the same modular concept.
+
+--------------------------------------------------
+2. What is a Function?
+--------------------------------------------------
+A function is a block of reusable code
+that performs a specific task.
+
+Syntax:
+def function_name():
+    code
+
+--------------------------------------------------
+3. Simple Function Example
+--------------------------------------------------
+Example:
+def check_service():
+    print("Service is running")
+
+Function is executed only when called.
+
+--------------------------------------------------
+4. Function with Parameters
+--------------------------------------------------
+Parameters allow passing data into functions.
+
+Example:
+def check_service(service_name):
+    print(service_name, "is running")
+
+DevOps use case:
+Check different services using one function.
+
+--------------------------------------------------
+5. Function with Return Value
+--------------------------------------------------
+Functions can return values.
+
+Example:
+def get_port():
+    return 80
+
+Returned values are commonly used in automation logic.
+
+--------------------------------------------------
+6. Default Parameters
+--------------------------------------------------
+Default values prevent errors if input is missing.
+
+Example:
+def deploy(env="dev"):
+    print("Deploying to", env)
+
+--------------------------------------------------
+7. Using Functions with Conditions
+--------------------------------------------------
+Functions often contain if-else logic.
+
+DevOps example:
+Check service status and act accordingly.
+
+--------------------------------------------------
+8. What are Modules?
+--------------------------------------------------
+A module is a file containing Python code
+(functions, variables, classes).
+
+Modules help:
+- Organize code
+- Reuse logic across scripts
+- Write clean automation
+
+--------------------------------------------------
+9. Built-in Modules (IMPORTANT)
+--------------------------------------------------
+Common DevOps modules:
+- os       → file system, environment variables
+- sys      → system arguments
+- time     → delays, timestamps
+- datetime → date and time
+- platform → OS information
+
+--------------------------------------------------
+10. Importing Modules
+--------------------------------------------------
+Ways to import:
+import os
+from time import sleep
+
+--------------------------------------------------
+11. Real-World DevOps Scenario
+--------------------------------------------------
+We will:
+- Use functions to check service status
+- Use os module for environment variables
+- Use time module for retry delays
+- Use functions to manage servers
+
+--------------------------------------------------
+12. Summary of Day 5
+--------------------------------------------------
+- Learned to write reusable functions
+- Used parameters and return values
+- Understood default arguments
+- Used Python modules for system tasks
+- Built professional DevOps-style scripts
+
+DAY 5 COMPLETED SUCCESSFULLY ✅
