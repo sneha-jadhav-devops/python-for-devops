@@ -30,6 +30,13 @@ It includes notes and hands-on code for each day of learning.
 - break and continue  
 - Real-world DevOps automation examples  
 
+**Day 5 – Functions & Modules (DevOps Focused)**  
+- Defining and calling functions  
+- Function parameters and return values  
+- Default arguments  
+- Conditional logic inside functions  
+- Using built-in modules: os, time, platform  
+- Real-world DevOps examples (service checks, retries, system info) 
 ---
 
 ## 🗂 Repository Structure
@@ -46,3 +53,5 @@ python-for-devops/
 ├── day03_operations.py
 ├── day04_notes.txt
 ├── day04_conditionals_loops.py
+├── day05_notes.txt
+├── day05_functions_modules.py
