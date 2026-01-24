@@ -36,7 +36,15 @@ It includes notes and hands-on code for each day of learning.
 - Default arguments  
 - Conditional logic inside functions  
 - Using built-in modules: os, time, platform  
-- Real-world DevOps examples (service checks, retries, system info) 
+- Real-world DevOps examples (service checks, retries, system info)
+
+**Day 6 – File Handling & Logs (DevOps Focused)**  
+- Reading and writing files  
+- Append mode for logs  
+- Log file analysis  
+- File existence checks  
+- Real-world DevOps logging examples  
+
 ---
 
 ## 🗂 Repository Structure
@@ -55,3 +63,5 @@ python-for-devops/
 ├── day04_conditionals_loops.py
 ├── day05_notes.txt
 ├── day05_functions_modules.py
+├── day06_notes.txt
+├── day06_file_handling.py
