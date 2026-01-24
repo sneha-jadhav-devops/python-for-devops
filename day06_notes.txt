@@ -1,0 +1,105 @@
+DAY 6 – FILE HANDLING & LOGS (DEVOPS FOCUSED)
+===========================================
+
+1. What is File Handling?
+------------------------
+File handling in Python allows us to:
+- Read data from files
+- Write data to files
+- Append data to existing files
+
+In DevOps, file handling is used for:
+- Reading application logs
+- Writing deployment logs
+- Reading configuration files
+- Storing automation results
+
+--------------------------------------------------
+
+2. Types of File Modes
+---------------------
+r   → Read mode (file must exist)
+w   → Write mode (creates new file, overwrites existing)
+a   → Append mode (adds data without deleting old data)
+r+  → Read and write mode
+
+DevOps Usage:
+- r  → Read logs or configs
+- w  → Create reports
+- a  → Add logs continuously
+
+--------------------------------------------------
+
+3. Writing Data to a File
+------------------------
+Used when creating:
+- Deployment reports
+- Initial log files
+
+Example use:
+- CI/CD pipeline logs
+- Build output storage
+
+--------------------------------------------------
+
+4. Appending Data to a File (IMPORTANT)
+--------------------------------------
+Append mode is most commonly used in DevOps because:
+- Logs should never be overwritten
+- Historical data is important
+
+Used in:
+- Monitoring logs
+- Health check results
+- Error tracking
+
+--------------------------------------------------
+
+5. Reading Files
+----------------
+Python can read:
+- Entire file at once
+- Line by line (recommended for large logs)
+
+Line-by-line reading is memory efficient and
+used in real-world log analysis.
+
+--------------------------------------------------
+
+6. File Existence Check
+----------------------
+Before reading or writing logs, DevOps scripts
+must verify whether a file exists.
+
+This avoids:
+- Script crashes
+- Missing file errors
+
+--------------------------------------------------
+
+7. DevOps Real-World Mapping
+----------------------------
+Python File Handling → DevOps Usage
+
+write()  → Deployment logs
+append() → Monitoring logs
+read()   → Log analysis
+exists() → Safe automation scripts
+
+--------------------------------------------------
+
+8. Best Practices
+-----------------
+- Always use 'with open()'
+- Use append mode for logs
+- Do not hardcode sensitive data
+- Keep logs readable and structured
+
+--------------------------------------------------
+
+9. Summary
+----------
+- Learned file handling basics
+- Understood log management
+- Practiced real DevOps use cases
+- Built foundation for config & log automation
