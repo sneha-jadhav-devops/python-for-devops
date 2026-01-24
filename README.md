@@ -43,7 +43,12 @@ It includes notes and hands-on code for each day of learning.
 - Append mode for logs  
 - Log file analysis  
 - File existence checks  
-- Real-world DevOps logging examples  
+- Real-world DevOps logging examples
+- Created structured log directories  
+- Added log levels (INFO, WARNING, ERROR)  
+- Implemented safe file handling with error handling  
+- Performed basic log filtering and analysis  
+ 
 
 ---
 
