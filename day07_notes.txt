@@ -1,0 +1,71 @@
+DAY 7 – JSON & YAML HANDLING 
+===========================================
+
+1. What is JSON?
+---------------
+JSON (JavaScript Object Notation) is a lightweight data format used to
+store and exchange data.
+
+DevOps Usage:
+- Cloud APIs (AWS, Azure, GCP)
+- Docker inspect output
+- Terraform outputs
+- Monitoring tool responses
+
+--------------------------------------------------
+
+2. JSON Structure
+-----------------
+- Data is stored in key-value pairs
+- Arrays are supported
+- Very similar to Python dictionaries and lists
+
+--------------------------------------------------
+
+3. What is YAML?
+---------------
+YAML (YAML Ain't Markup Language) is a human-readable data format.
+
+DevOps Usage:
+- Kubernetes configuration files
+- Ansible playbooks
+- CI/CD pipelines
+- Application configuration files
+
+--------------------------------------------------
+
+4. JSON vs YAML
+---------------
+JSON:
+- Machine-friendly
+- Used by APIs
+
+YAML:
+- Human-friendly
+- Used by DevOps tools
+
+--------------------------------------------------
+
+5. Python and Config Files
+-------------------------
+Python can:
+- Read JSON and YAML files
+- Modify configuration values
+- Validate DevOps configs
+- Automate infrastructure tasks
+
+--------------------------------------------------
+
+6. DevOps Real-World Mapping
+----------------------------
+Python Dictionary → JSON Object
+Python List       → JSON Array
+YAML              → Kubernetes / Ansible configs
+
+--------------------------------------------------
+
+7. Summary
+----------
+- Learned JSON & YAML basics
+- Parsed configs using Python
+- Built foundation for DevOps automation
