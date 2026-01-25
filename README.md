@@ -49,7 +49,11 @@ It includes notes and hands-on code for each day of learning.
 - Implemented safe file handling with error handling  
 - Performed basic log filtering and analysis  
  
-
+**Day 7 – JSON & YAML Handling (DevOps Focused)**  
+- JSON parsing and generation  
+- YAML configuration handling  
+- Mapping Python dictionaries to DevOps configs  
+- Real-world DevOps configuration examples  
 ---
 
 ## 🗂 Repository Structure
@@ -70,3 +74,10 @@ python-for-devops/
 ├── day05_functions_modules.py
 ├── day06_notes.txt
 ├── day06_file_handling.py
+├── day07_notes.txt
+├── day07_sample.json
+├── day07_json_handling.py
+├── day07_config.yaml
+├── day07_yaml_handling.py
+
+
