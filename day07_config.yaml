@@ -1,0 +1,5 @@
+service:
+  name: nginx
+  port: 80
+  replicas: 2
+environment: production
