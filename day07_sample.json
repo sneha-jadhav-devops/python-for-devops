@@ -1,0 +1,6 @@
+{
+  "service": "nginx",
+  "port": 80,
+  "replicas": 3,
+  "environment": "production"
+}
