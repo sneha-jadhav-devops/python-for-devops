@@ -53,7 +53,14 @@ It includes notes and hands-on code for each day of learning.
 - JSON parsing and generation  
 - YAML configuration handling  
 - Mapping Python dictionaries to DevOps configs  
-- Real-world DevOps configuration examples  
+- Real-world DevOps configuration examples
+
+**Day 8 – Working with APIs (DevOps Focused)**  
+- Understanding REST APIs  
+- HTTP methods (GET, POST)  
+- API error handling  
+- Health check automation using APIs  
+ 
 ---
 
 ## 🗂 Repository Structure
@@ -79,5 +86,8 @@ python-for-devops/
 ├── day07_json_handling.py
 ├── day07_config.yaml
 ├── day07_yaml_handling.py
-
+├── day08_notes.txt
+├── day08_api_get.py
+├── day08_health_check.py
+├── day08_api_post.py
 
