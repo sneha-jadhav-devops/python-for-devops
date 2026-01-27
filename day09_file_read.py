@@ -1,0 +1,5 @@
+file = open("config.txt", "r")
+content = file.read()
+print("Config File Content:")
+print(content)
+file.close()
