@@ -1,0 +1,72 @@
+DAY 9 – ADVANCED PYTHON FOR DEVOPS (LOGGING, EXCEPTIONS, FILE HANDLING)
+
+Why Day 9 is important for DevOps?
+- Production-ready scripts
+- Proper error handling
+- Logging instead of print
+- Reading configs from files
+- Debugging automation issues
+
+Topics Covered:
+1. Exception Handling
+2. Logging
+3. File Handling
+4. Config-based Automation
+5. Real DevOps Use Cases
+
+--------------------------------------------------
+
+1) Exception Handling
+Used to handle runtime errors gracefully.
+
+Common Exceptions:
+- FileNotFoundError
+- ValueError
+- KeyError
+- ConnectionError
+
+Keywords:
+try
+except
+else
+finally
+
+--------------------------------------------------
+
+2) Logging
+Used instead of print() in real DevOps projects.
+
+Log Levels:
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL
+
+Benefits:
+- Helps in debugging
+- Stores execution history
+- Used in production systems
+
+--------------------------------------------------
+
+3) File Handling
+Used to read/write configuration files.
+
+File Modes:
+r → read
+w → write
+a → append
+
+--------------------------------------------------
+
+4) Config-Based Automation
+Automation scripts should read values from files
+instead of hardcoding them.
+
+--------------------------------------------------
+
+5) Real DevOps Use Case
+- Service monitoring
+- Deployment scripts
+- Health checks with logs
