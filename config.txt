@@ -1,0 +1,3 @@
+ENV=production
+SERVICE=nginx
+RETRIES=3
