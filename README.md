@@ -60,7 +60,13 @@ It includes notes and hands-on code for each day of learning.
 - HTTP methods (GET, POST)  
 - API error handling  
 - Health check automation using APIs  
- 
+
+ **Day 9 – Advanced Python for DevOps**  
+- Exception handling  
+- Logging for production scripts  
+- File read and write operations  
+- Config-based automation  
+- Real-world DevOps examples  
 ---
 
 ## 🗂 Repository Structure
@@ -90,4 +96,11 @@ python-for-devops/
 ├── day08_api_get.py
 ├── day08_health_check.py
 ├── day08_api_post.py
+├── day09_notes.txt
+├── day09_exception_handling.py
+├── day09_logging.py
+├── day09_file_read.py
+├── day09_file_write.py
+├── day09_devops_automation.py
+├── config.txt
 
