@@ -66,7 +66,15 @@ It includes notes and hands-on code for each day of learning.
 - Logging for production scripts  
 - File read and write operations  
 - Config-based automation  
-- Real-world DevOps examples  
+- Real-world DevOps examples
+
+  **Day 10 – Python + Linux Automation (DevOps Focused)**  
+- Running Linux commands using Python  
+- Server health monitoring  
+- Disk, memory, uptime checks  
+- Service status automation  
+- Real DevOps production-style scripts  
+ 
 ---
 
 ## 🗂 Repository Structure
@@ -103,4 +111,9 @@ python-for-devops/
 ├── day09_file_write.py
 ├── day09_devops_automation.py
 ├── config.txt
+├── day10_notes.txt
+├── day10_linux_commands.py
+├── day10_service_check.py
+├── day10_server_health.py
+├── day10_automation_loop.py
 
