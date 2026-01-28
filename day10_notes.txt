@@ -1,0 +1,20 @@
+DAY 10 – PYTHON + LINUX AUTOMATION (DEVOPS)
+
+Topics Covered:
+- subprocess module
+- Running Linux commands via Python
+- System monitoring
+- Service checks
+- Automation scripts
+
+Why this matters in DevOps:
+- Automate server health checks
+- Replace shell scripts with Python
+- Build monitoring & alert scripts
+- Prepare for real production automation
+
+Linux Commands Automated:
+- uptime
+- df -h
+- free -m
+- systemctl status
