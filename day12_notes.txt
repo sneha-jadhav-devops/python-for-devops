@@ -1,0 +1,20 @@
+DAY 12 – PYTHON + DOCKER AUTOMATION
+
+Topics Covered:
+- Docker automation using Python
+- Docker SDK for Python
+- Container management
+- DevOps automation use cases
+
+Why this matters:
+- Automates container operations
+- Used in CI/CD pipelines
+- Reduces manual Docker commands
+
+Python Library Used:
+- docker (Docker SDK)
+
+Docker Actions Automated:
+- List containers
+- Start/Stop containers
+- Fetch container info
