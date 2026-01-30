@@ -1,0 +1,7 @@
+REAL DEVOPS USE CASES – DAY 11
+
+1. Auto-start EC2 in morning
+2. Auto-stop EC2 at night
+3. List unused EC2 instances
+4. Monitor S3 buckets
+5. Cloud cost optimization
