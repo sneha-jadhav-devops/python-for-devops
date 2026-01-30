@@ -1,0 +1,20 @@
+DAY 11 – PYTHON + AWS AUTOMATION (DEVOPS)
+
+Topics Covered:
+- AWS automation using Python
+- boto3 library
+- IAM authentication basics
+- EC2 & S3 automation concepts
+
+Why this matters:
+- Automates cloud infrastructure
+- Reduces manual AWS console work
+- Used in real DevOps & SRE roles
+
+AWS Services Used:
+- EC2
+- S3
+
+Important:
+- boto3 is AWS SDK for Python
+- Requires IAM access keys
