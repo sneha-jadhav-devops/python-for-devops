@@ -82,6 +82,13 @@ It includes notes and hands-on code for each day of learning.
 - S3 bucket automation  
 - Real-world cloud DevOps scripts  
 
+**Day 12 – Python + Docker Automation (DevOps Focused)**  
+- Docker SDK for Python  
+- Container automation scripts  
+- Start/Stop containers  
+- Container health checks  
+- Real-world DevOps use cases  
+
 ---
 
 ## 🗂 Repository Structure
@@ -129,4 +136,10 @@ python-for-devops/
 ├── day11_list_ec2_instances.py
 ├── day11_ec2_start_stop.py
 ├── day11_devops_use_case.txt
+├── day12_notes.txt
+├── day12_docker_sdk_check.py
+├── day12_list_containers.py
+├── day12_start_stop_container.py
+├── day12_container_health.py
+├── day12_devops_use_cases.txt
 
