@@ -74,7 +74,14 @@ It includes notes and hands-on code for each day of learning.
 - Disk, memory, uptime checks  
 - Service status automation  
 - Real DevOps production-style scripts  
- 
+
+ **Day 11 – Python + AWS Automation (DevOps Focused)**  
+- Introduction to boto3  
+- AWS automation using Python  
+- EC2 instance management  
+- S3 bucket automation  
+- Real-world cloud DevOps scripts  
+
 ---
 
 ## 🗂 Repository Structure
@@ -116,4 +123,10 @@ python-for-devops/
 ├── day10_service_check.py
 ├── day10_server_health.py
 ├── day10_automation_loop.py
+├── day11_notes.txt
+├── day11_boto3_intro.py
+├── day11_list_s3_buckets.py
+├── day11_list_ec2_instances.py
+├── day11_ec2_start_stop.py
+├── day11_devops_use_case.txt
 
