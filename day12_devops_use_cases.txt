@@ -1,0 +1,7 @@
+REAL DEVOPS USE CASES – DAY 12
+
+1. Auto-start containers after deployment
+2. Stop unused containers to save resources
+3. Health checks for critical containers
+4. CI/CD pipeline container validation
+5. Production monitoring scripts
